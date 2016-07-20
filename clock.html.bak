@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <meta charset="utf-8"/>
+	  <title></title>
+	  <link rel="stylesheet" type="text/css" href="clock.css">
+   </head>
+
+   <body>
+	<div id="clock">
+		<div class='p hour'></div>
+		<div class='p minute'></div>
+		<div class='p second'></div>
+	</div>
+	<script src="clock.js"></script>
+   </body>
+</html>

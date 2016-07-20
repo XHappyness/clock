@@ -1,12 +1,13 @@
-*{
+		*{
 			margin:0;
 			padding:0;
 		}
+		/* 指针走表的样式 */
 		#clock{
+			margin:10px auto;
 			width:300px;
 			height:300px;
-			margin:0 auto;
-			border:1px solid #aaa;
+			border:1px solid gray;
 			border-radius:50%;
 			position:relative;
 		}
@@ -18,18 +19,37 @@
 		.hour{
 			width:60px;
 			height:10px;
-			background:#faa;
-			top:145px;
+			background-color:#faa;
+			top:145px;			
 		}
 		.minute{
 			width:120px;
 			height:8px;
-			background:#aaf;
-			top:146px;
+			background-color:#aaf;
+			top:146px;			
 		}
 		.second{
 			width:150px;
 			height:4px;
-			background:#afa;
-			top:148px;
+			background-color:#afa;
+			top:148px;			
+		}
+		
+		/* 数字表及计时器样式 */
+		.container{
+			width:290px;
+			margin:0 auto;
+			text-align:center;
+			font:30px "黑体";
+			background-color:pink;
+			border:1px solid #aaa;
+			border-radius:20px;
+			padding:10px;
+		}
+		h3{
+			font:15px "宋体";
+			color:green;
+		}
+		button{
+			border-radius:20px;
 		}
